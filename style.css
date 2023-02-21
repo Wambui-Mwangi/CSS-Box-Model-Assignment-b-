@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(133, 133, 198);
+    margin: 5%;
+}
+
+#nclogo{
+    width: 20%;
+}
+
+#span{
+    color: green;
+}
+
+.section{
+    background-color: white;
+    padding: 30px;
+    border: 10px solid whitesmoke;
+    border-radius: 15px;
+}
+
+#about{
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#works{
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#why{
+    text-decoration: none;
+}
+
+.header img{
+    float: left;
+    width: 40px;
+    background-color: white;
+    margin-left: 10%;
+}
+
+.navigation{
+    float: right;
+    display: flex;
+}
+
+#button1{
+    background-color: rgb(112, 112, 203);
+    border-radius: 5px;
+}
+
+.mbody{
+    text-align: center;
+    font-size: larger;
+}
+
+#main{
+   width: 100%; height: 100%;
+   /* image-orientation: from-image; */
+}
+
+.logos{
+    display: flex;
+    margin-left: 10px;
+}
+
+#jr{
+    width: 70px;
+    height: 70px;
+    margin-right: 2%;
+}
+
+#fits{
+    width: 70px;
+    height: 70px;
+    margin-right: 2%;
+}
+
+#smithey{
+    width: 70px;
+    height: 70px;
+    margin-right: 2%;
+}
+
+#rigwal{
+    width: 80px;
+    height: 80px;
+}
+
+.info{
+    display: flex;
+    /* justify-content: right; */
+    gap: 10px;
+    margin-left: 25%;
+}
+
+.mid{
+    /* margin-right: 10%; */
+    display: flex;
+    /* gap: 300px; */
+    /* gap: 15px; */
+}
+
+#orders{
+    display: block;
+    /* max-width: 100%; */
+    /* margin: 10% 1; */
+    padding: 10px;
+    background-color: rgb(177, 225, 240);
+    /* margin-right: 2%; */
+    text-align: center;
+    /* margin-left: 2%; */
+    border-radius: 7px;
+    width: 50%;
+    /* text-align: unset; */
+
+}
+
+#scan{
+    display: block;
+    /* max-width: 100%; */
+    /* margin: 0 auto; */
+    padding: 10px;
+    background-color: rgb(154, 242, 167);
+    /* margin-right: 2%; */
+    border-radius: 7px;
+    width: 50%;
+}
+
+#retention{
+    display: block;
+    /* max-width: 100%; */
+    /* margin: 0 auto; */
+    padding: 10px;
+    background-color: rgb(249, 167, 234);
+    border-radius: 7px;
+    width: 50%;
+}
+
+.ending{
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+}
+
+#button2{
+    background-color: rgb(150, 150, 240);
+    border-radius: 5px;
+    
+}
+
+.same{
+    display: block;
+    /* width: 13%; */
+}
+
+.ftext{
+margin-left: 10%;
+}
+
+#sameday{
+    border: solid 1px rgb(112, 118, 244);
+}
+
+#uniq{
+border:solid 1px orange;
+}
+
+#man{
+border: solid 1px green;
+}
+
+.bottomhalf{
+    margin: 0 10% 0 10%;
+}
+
+.last{
+    display: flex;
+    gap: 370px;
+}
+.bleft{
+    size: 5%;
+}
+
