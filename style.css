@@ -3,19 +3,20 @@ body{
     margin: 5%;
 }
 
-#nclogo{
-    width: 20%;
-}
-
-#span{
-    color: green;
-}
-
 .section{
     background-color: white;
     padding: 30px;
     border: 10px solid whitesmoke;
     border-radius: 15px;
+}
+
+#nclogo{
+    width: 20%;
+}
+
+.navigation{
+    float: right;
+    display: flex;
 }
 
 #about{
@@ -32,16 +33,13 @@ body{
     text-decoration: none;
 }
 
-.header img{
-    float: left;
-    width: 40px;
-    background-color: white;
-    margin-left: 10%;
+.mbody{
+    text-align: center;
+    font-size: larger;
 }
 
-.navigation{
-    float: right;
-    display: flex;
+#span{
+    color: green;
 }
 
 #button1{
@@ -49,14 +47,17 @@ body{
     border-radius: 5px;
 }
 
-.mbody{
-    text-align: center;
-    font-size: larger;
+#main{
+    width: 100%; height: 100%;
+ }
+
+ .bottomhalf{
+    margin: 0 10% 0 10%;
 }
 
-#main{
-   width: 100%; height: 100%;
-   /* image-orientation: from-image; */
+.mid{
+    display: flex;
+
 }
 
 .logos{
@@ -89,58 +90,42 @@ body{
 
 .info{
     display: flex;
-    /* justify-content: right; */
     gap: 10px;
     margin-left: 25%;
 }
 
-.mid{
-    /* margin-right: 10%; */
-    display: flex;
-    /* gap: 300px; */
-    /* gap: 15px; */
-}
-
 #orders{
     display: block;
-    /* max-width: 100%; */
-    /* margin: 10% 1; */
     padding: 10px;
     background-color: rgb(177, 225, 240);
-    /* margin-right: 2%; */
     text-align: center;
-    /* margin-left: 2%; */
     border-radius: 7px;
     width: 50%;
-    /* text-align: unset; */
-
 }
 
 #scan{
     display: block;
-    /* max-width: 100%; */
-    /* margin: 0 auto; */
     padding: 10px;
     background-color: rgb(154, 242, 167);
-    /* margin-right: 2%; */
     border-radius: 7px;
     width: 50%;
 }
 
 #retention{
     display: block;
-    /* max-width: 100%; */
-    /* margin: 0 auto; */
     padding: 10px;
     background-color: rgb(249, 167, 234);
     border-radius: 7px;
     width: 50%;
 }
 
-.ending{
+.last{
     display: flex;
-    justify-content: end;
-    gap: 25px;
+    gap: 370px;
+}
+
+.bleft{
+    size: 5%;
 }
 
 #button2{
@@ -149,13 +134,14 @@ body{
     
 }
 
-.same{
-    display: block;
-    /* width: 13%; */
+.ending{
+    display: flex;
+    justify-content: end;
+    gap: 25px;
 }
 
-.ftext{
-margin-left: 10%;
+.same{
+    display: block;
 }
 
 #sameday{
@@ -163,22 +149,57 @@ margin-left: 10%;
 }
 
 #uniq{
-border:solid 1px orange;
+    border:solid 1px orange;
 }
 
 #man{
-border: solid 1px green;
+        border: solid 1px green;
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ftext{
+margin-left: 10%;
 }
 
-.bottomhalf{
-    margin: 0 10% 0 10%;
-}
 
-.last{
-    display: flex;
-    gap: 370px;
-}
-.bleft{
-    size: 5%;
-}
+
+
+
+
+
+
+
+
 
